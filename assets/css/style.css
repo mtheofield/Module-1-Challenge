@@ -3,12 +3,12 @@
     padding: 0;
     margin: 0;
 }
-
+/* This is the style for the entire body of the webpage */
 body {
     background-color: #d9dcd6;
 }
-
-.header {
+/* The header is the first thing seen on the page so it comes first in style sheet*/
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -32,24 +32,17 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
-}
-
 .header nav ul li {
+    list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
+header a {
     color: #ffffff;
     text-decoration: none;
 }
-
-p {
-    font-size: 16px;
-}
-
+/* This is the large image under the navigation section*/
 .hero {
     height: 800px;
     width: 100%;
@@ -57,25 +50,16 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    font-size: 16px;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* This starts the main content on the page*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-main section {
+main article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -89,10 +73,19 @@ h2 {
     font-size: 36px;
 }
 
-main section img {
+main article img {
     max-height: 200px;
 }
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
 
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* This is the text to the right of the page that is indirectly related */
 aside section {
     margin-bottom: 32px;
     color: #ffffff;
@@ -119,6 +112,7 @@ h3 {
     margin: 10px auto;
     max-width: 150px;
 }
+/* This is the last thing seen on the page known as the footer*/
 .footer {
     padding: 30px;
     clear: both;
