@@ -9,7 +9,7 @@ Went through the webpage to ensure it meets accessibility standards. First I vie
     *CSS 
 
 ## Website
-https://lernantino.github.io/run-buddy/
+https://mtheofield.github.io/Module-1-Challenge/
 
 Contribution
 Made with Mary Theofield 
