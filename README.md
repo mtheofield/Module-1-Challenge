@@ -5,5 +5,15 @@ Updating and editing exisiting codebase that follows accessibility standards so 
 Went through the webpage to ensure it meets accessibility standards. First I viewed the source code. I then found semantic HTML elements usiing VS Code. I then reviewed the structure of the HTML elements and found the elements follow a logical structure independent of styling and positioning. I ensured all image elements were tagged with an alt attribute to maximize accessabiliity for the user. I corrected the headiing attriibutes to have them fall in sequential order. Lastly, I made the title element concise and descriipton to the webpage. 
 
 ## Built with 
-    HTML 
-    CSS 
+    *HTML 
+    *CSS 
+
+## Website
+https://lernantino.github.io/run-buddy/
+
+Contribution
+Made with Mary Theofield 
+
+©️2019 Horiseon Social Solution Services, Inc.
+
+
